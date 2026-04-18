@@ -68,3 +68,13 @@ Production-ready single-service Node.js app for generating quizzes from uploaded
 - Image OCR is optional and not enabled in this prototype.
 - Grok may reduce `question_count` if source content is insufficient.
 - If file attachment retrieval is unreliable for some formats, generation still works using SOURCE PACK extraction.
+
+## Flutter migration starter
+
+A Flutter client scaffold is included in `flutter_app/` with version pinning for Flutter **3.41.7**.
+It includes:
+- Google Sign-In auth exchange with backend
+- API key settings for Grok/Gemini
+- Quiz generation flow and quiz-taking UI
+
+See `flutter_app/README.md` for setup and run instructions.
